@@ -4,7 +4,7 @@ This is my personal configuration for Windows 11 [Terminal](https://apps.microso
 
 ![Windows Terminal](/assets/images/terminal.png)
 
-I'm running [WLS](https://learn.microsoft.com/en-us/windows/wsl/install) and all of my services are strictly running in it. I'm not running anything natively on Windows, hence, the configuration is mainly based around [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
+I'm running all of my services inside the [WLS](https://learn.microsoft.com/en-us/windows/wsl/install). I'm not running anything natively on Windows. While this won't matter much to you, even if you are running e.g. Windows Prompt or Windows Powershell, it's worth mentioning it, as I'm also running Zsh and tmux, which I don't think you can run inside Prompt/Powershell.
 
 In order for the configuration to work properly, make sure to merge your configuration with mine. That means that you shouldn't import the _profiles_ part of the JSON, as they will be different on your computer. With that said, I have actually removed _profiles_ from the provided JSON, as what you might have configured on your PC most likely differs completely from my own configuration.
 
