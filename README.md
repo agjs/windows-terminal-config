@@ -22,5 +22,12 @@ In order for the configuration to work properly, make sure to merge your configu
 
 - At this point, you don't want to replace the whole configuration, but instead, keep your `profiles` object in there, and merge it with the configuration I provided.
 
+## Notes
+
+This configuration is mainly for Windows Terminal. It doesn't include my [Zsh](https://ohmyz.sh/) or [tmux](https://github.com/tmux/tmux/wiki) configs. If you haven't already, I'd highly advise you to setup those, or at least, [Zsh](https://ohmyz.sh/).
+
+You can [set it up](https://ohmyz.sh/#install) easily, as the bash script starts the CLI _wizard_, where you simply have to finalize couple of steps.
+
 That should be it!
+
 Cheers
