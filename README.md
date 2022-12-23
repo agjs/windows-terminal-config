@@ -26,7 +26,7 @@ In order for the configuration to work properly, make sure to merge your configu
 
 This configuration is mainly for Windows Terminal. It doesn't include my [Zsh](https://ohmyz.sh/) or [tmux](https://github.com/tmux/tmux/wiki) configs. If you haven't already, I'd highly advise you to setup those, or at least, [Zsh](https://ohmyz.sh/).
 
-You can [set it up](https://ohmyz.sh/#install) easily, as the bash script starts the CLI _wizard_, where you simply have to finalize couple of steps.
+You can [set it up](https://ohmyz.sh/#install) easily, as the bash script starts the CLI _wizard_, where you simply have to finalize couple of steps. If you want to get some inspiration or help, you can also take a look at my other repository, [iterm2 with ZSH](https://github.com/agjs/iTerm2-with-ZSH). It talks about Zsh, tmux and more.
 
 That should be it!
 
