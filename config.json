@@ -4,12 +4,6 @@
   "actions": [
     {
       "command": {
-        "action": "prevTab"
-      },
-      "keys": "ctrl+alt+8"
-    },
-    {
-      "command": {
         "action": "copy",
         "singleLine": false
       },
@@ -23,20 +17,32 @@
       "keys": "ctrl+d"
     },
     {
+      "command": {
+        "action": "newWindow"
+      },
+      "keys": "ctrl+n"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+w"
+    },
+    {
+      "command": {
+        "action": "prevTab"
+      },
+      "keys": "ctrl+alt+8"
+    },
+    {
       "command": "paste",
       "keys": "ctrl+v"
     },
     {
       "command": {
-        "action": "nextTab"
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
       },
-      "keys": "ctrl+alt+9"
-    },
-    {
-      "command": {
-        "action": "quakeMode"
-      },
-      "keys": "alt+shift+1"
+      "keys": "alt+shift+d"
     },
     {
       "command": "unbound",
@@ -79,20 +85,10 @@
       "keys": "alt+enter"
     },
     {
-      "command": "closePane",
-      "keys": "ctrl+w"
-    },
-    {
-      "command": "find",
-      "keys": "ctrl+f"
-    },
-    {
       "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
+        "action": "nextTab"
       },
-      "keys": "alt+shift+d"
+      "keys": "ctrl+alt+9"
     },
     {
       "command": {
@@ -102,9 +98,9 @@
     },
     {
       "command": {
-        "action": "newWindow"
+        "action": "quakeMode"
       },
-      "keys": "ctrl+n"
+      "keys": "alt+shift+1"
     },
     {
       "command": {
@@ -112,6 +108,10 @@
         "split": "down"
       },
       "keys": "ctrl+g"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+f"
     },
     {
       "command": "toggleFullscreen",
@@ -122,6 +122,7 @@
   "copyFormatting": "none",
   "copyOnSelect": true,
   "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": true,
   "schemes": [
     {
@@ -402,5 +403,8 @@
     }
   ],
   "showTabsInTitlebar": true,
-  "theme": "system"
+  "startOnUserLogin": true,
+  "theme": "dark",
+  "themes": [],
+  "useAcrylicInTabRow": true
 }

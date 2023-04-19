@@ -1,5 +1,7 @@
 # 👾🎯 `Windows Terminal Configuration`
 
+## [Watch YouTube Video](https://www.youtube.com/watch?v=R9Q_y7K03jE)
+
 This is my personal configuration for Windows 11 [Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=da-dk&gl=dk). Due to many requests on my [Programmer Network Twitch Stream](https://twitch.tv/programmer_network), I have decided to export the configuration and share it with those who want to replicate it.
 
 ![Windows Terminal](/assets/images/terminal.png)
